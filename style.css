@@ -1,0 +1,278 @@
+body{
+  background: #fff;
+  color: #000;
+  font-family: arial,sans-serif;
+  font-size:13px;
+}
+
+*{
+  /* margin:0;
+  padding:0; */
+  /* outline: 1px solid red; */
+  text-decoration:none;
+}
+
+.conteneur_boutons{
+  display:flex;
+  justify-content:right;
+  align-items:center;
+   height:48px;
+}
+
+.box{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-left : 15px;  
+}
+
+.box:hover{
+  text-decoration:underline;
+}
+
+box a:visited{
+  color: #000;
+}
+
+.applis{
+  margin-left:15px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  border-radius:50%;
+  padding: 8px;
+}
+
+.applis img{
+  display: flex;
+  align-items:center;
+  height: 20px;
+}
+
+.applis:hover{
+  background-color:rgba(163, 167, 169, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.connexion{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height:20px;
+  padding: 9px 23px 9px 23px;
+  border-radius: 6px;
+  color:#FFFFFF;
+  background-color: #1a73e8;
+  font-family:Google Sans,Roboto,Helvetica,Arial,sans-serif;
+  font-size : 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.connexion a{
+  color: white;
+}
+
+.connexion:hover{
+  opacity:90%;
+}
+
+.conteneur_google{
+
+  height:188px;
+  min-width: auto;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  margin-bottom:20px;
+}
+
+.conteneur_google img{
+  height:92px;
+  width:272px;
+}
+
+.zone_recherche{
+
+  height:160px;
+  padding:20px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  }
+
+.barre_recherche{
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height:39px;
+  width : 560px;
+  min-width:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.barre_recherche:hover{
+  border: 2px solid rgb(183, 182, 182);
+}
+
+.loupe {
+  height:23px;
+  width:23px;
+  margin:10px;
+}
+
+.loupe img{
+  height:23px;
+  width:23px;
+  cursor:pointer;
+}
+
+.barre{
+  height:34px;
+  width:443px;
+  min-width:auto;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  margin:5px;
+}
+
+.micro-photo{
+  height:44px;
+  width:84px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.micro-photo img{
+  height:22px;
+  width:22px;
+  padding:5px;
+  cursor: pointer;
+}
+
+.bouton_supps{
+  margin-top:20px;
+  height:70px;
+  width:584px;
+  display: flex;
+  justify-content:center;
+}
+
+.recherche_google{
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height:36px;
+  width:151px;
+  border: 1px solid #DADCE0;
+  border-radius: 4px;
+  background-color:#F8F9FA;
+  margin: 11px 4px 11px 4px;
+  padding : 0px 16px 0px 16px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 11px 4px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.recherche_google:hover{
+  border: 2px solid rgb(183, 182, 182);
+}
+
+.chance{
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height:36px;
+  width:138px;
+  border: 1px solid #DADCE0;
+  border-radius: 4px;
+  background-color:#F8F9FA;
+  margin: 11px 4px 11px 4px;
+  padding : 0px 16px 0px 16px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 11px 4px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.chance:hover{
+  border: 2px solid rgb(183, 182, 182);
+}
+
+.bouton_supps a:visited{
+  color: #3c4043;
+}
+
+.pays{
+  color: #70757a;
+  font-size:15px;
+  height:18px;
+  background-color:#F8F9FA;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+}
+
+.autres{
+  color: #70757a;
+  font-size:15px;
+  height:18px;
+  background-color:#F8F9FA;
+  padding : 15px 20px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.autres1{
+  width: 550px;
+  display:flex;
+  justify-content:space-around;
+}
+
+.autres2{
+  width:auto;
+}
+
+.autres3{
+  width:300px;
+  display:flex;
+  justify-content:space-around;
+ 
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
+}
+
+footer a{
+  text-decoration:none;
+}
+
+footer a:hover{
+  text-decoration:underline; 
+}
+
+.parametres:hover{
+  text-decoration:underline;
+  cursor:pointer; 
+}
+
+footer a:visited{
+  color: #70757a;
+}
